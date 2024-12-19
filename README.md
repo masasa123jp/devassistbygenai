@@ -1,8 +1,9 @@
 # devassistbygenai
 
-
 #Application Overview
+
 #English
+
 #Purpose
 This application serves as a development assistance tool that integrates various functionalities to help users manage projects, files, and interactions with AI models effectively. It provides features for JIRA integration, dynamic Q&A, file processing, and session management.
 
@@ -23,7 +24,9 @@ Run the application using Streamlit with the command streamlit run app.py.
 #Security Note
 Please ensure to keep your API keys and sensitive information secure and do not expose them in public repositories.
 
+
 #日本語
+
 #目的
 このアプリケーションは、プロジェクト、ファイル、AIモデルとのインタラクションを効果的に管理するための開発支援ツールです。ユーザーがプロジェクトを管理し、ファイルを処理し、ダイナミックなQ&Aを行うことができる機能を提供します。
 
@@ -34,12 +37,14 @@ JIRA統合: プロジェクトや課題データをJIRAから取得し、効果�
 トークン管理: APIリクエストに使用されるトークンを追跡し、関連するコストを計算します。
 セッション管理: ユーザーセッションを管理し、会話履歴を保持することで、ユーザーエクスペリエンスを向上させます。
 
+
 #実行方法
 Pythonがマシンにインストールされていることを確認してください。
 GitHubからこのリポジトリをクローンします。
 pip install -r requirements.txtを使用して、必要なパッケージをインストールします。
 config.pyファイルで必要なAPIキーと設定を行います。
 streamlit run app.pyコマンドでアプリケーションを実行します。
+
 
 #セキュリティノート
 APIキーや機密情報を安全に保管し、公開リポジトリに露出しないようにしてください。
